@@ -1,0 +1,14 @@
+.container {
+    height: 60vh;
+    width: 90vw;
+    margin: 20px;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    overflow-y: auto;
+}
+.container div {
+    background-color: yellow;
+    border: solid black 1px;
+    text-align: center;
+}
